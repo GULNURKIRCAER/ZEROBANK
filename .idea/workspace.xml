@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="my codes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountsActivityDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountsActivityDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/FindTransactionsDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/FindTransactionsDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +90,27 @@
       <option name="project" value="LOCAL" />
       <updated>1603871174094</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new codes">
+      <created>1603877958914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603877958914</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new codes">
+      <created>1603878133079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603878133079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="my codes" />
+    <MESSAGE value="new codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new codes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="510" y="308" key="Github.ShareDialog" timestamp="1603871121485">
@@ -110,26 +121,30 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="450" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1603871129756" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1603877791489">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1603877943254">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603877791489" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1603877791488">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603877943254" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1603877943253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603877791488" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1603877791487">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603877943253" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1603877943252">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603877791487" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1603877791488">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603877943252" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1603877943253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603877791488" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603877943253" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1603828973048">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603828973048" />
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2" timestamp="1603878141245">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603878141245" />
     <state x="339" y="163" width="602" height="474" key="find.popup" timestamp="1603876931057">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
