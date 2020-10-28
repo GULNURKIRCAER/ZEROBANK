@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" root0="SKIP_INSPECTION" />
   </component>
@@ -79,22 +82,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1603870731423">
+    <state x="510" y="308" key="Github.ShareDialog" timestamp="1603871121485">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603870731423" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1603870731422">
+    <state x="510" y="308" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1603871121485" />
+    <state x="450" y="113" key="Github.UntrackedFilesDialog" timestamp="1603871129756">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603870731422" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1603870731421">
+    <state x="450" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1603871129756" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1603871037284">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603870731421" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1603870731422">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1603871037284" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1603871037282">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603870731422" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1603871037282" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1603871037281">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1603871037281" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1603871037283">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1603871037283" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1603828973048">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
