@@ -30,6 +30,8 @@ public class LoginPage
     public void login(String userName,String password) {
         this.userName.sendKeys(userName);
         this.password.sendKeys(password);
+        BrowserUtils.waitFor(2);
+
         this.submit.click();
         BrowserUtils.waitFor(3);
     }

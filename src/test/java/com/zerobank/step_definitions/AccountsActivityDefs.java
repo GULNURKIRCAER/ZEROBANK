@@ -12,6 +12,7 @@ import com.zerobank.pages.LoginPage;
 import com.zerobank.utilities.Driver;
 import com.zerobank.utilities.ConfigurationReader;
 
+
 public class AccountsActivityDefs {
     @Given("the user is logged in")
     public void the_user_is_logged_in()  {
@@ -29,7 +30,9 @@ public class AccountsActivityDefs {
 
         loginPage.login(username, password);
 
-
+//        if(!(loginPage.userName.getAttribute("value").equals("username")) || !(loginPage.password.getAttribute("value").equals("password"))){
+//            Assert.assertTrue(loginPage.alert.isDisplayed());
+//        }
     }
 
     @When("the user clicks on {string} link on the Account Summary page")
