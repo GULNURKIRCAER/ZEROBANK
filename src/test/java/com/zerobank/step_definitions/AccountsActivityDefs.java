@@ -11,6 +11,7 @@ import org.junit.Assert;
 import com.zerobank.pages.LoginPage;
 import com.zerobank.utilities.Driver;
 import com.zerobank.utilities.ConfigurationReader;
+import org.openqa.selenium.By;
 
 
 public class AccountsActivityDefs {
@@ -25,14 +26,17 @@ public class AccountsActivityDefs {
 
         loginPage.signIn.click();
 
-        String username = ConfigurationReader.get("username");
-        String password = ConfigurationReader.get("password");
+//        String username = ConfigurationReader.get("username");
+//        String password = ConfigurationReader.get("password");
 
-        loginPage.login(username, password);
+        Driver.get().findElement(By.id("user_login")).sendKeys("username");
+        Driver.get().findElement(By.id("user_password")).sendKeys("password");
 
-//        if(!(loginPage.userName.getAttribute("value").equals("username")) || !(loginPage.password.getAttribute("value").equals("password"))){
-//            Assert.assertTrue(loginPage.alert.isDisplayed());
-//        }
+        if(loginPage.userName.getAttribute("value").equals("username") || loginPage.password.getAttribute("value").equals("password")) {
+            Driver.get().findElement(By.name("submit")).click();
+        }else  if(!loginPage.userName.getAttribute("value").equals("username") || !loginPage.password.getAttribute("value").equals("password")){
+            Assert.assertTrue(loginPage.alert.isDisplayed());
+        }
     }
 
     @When("the user clicks on {string} link on the Account Summary page")
@@ -61,11 +65,19 @@ public class AccountsActivityDefs {
     public void the_Account_Activity_page_should_be_displayed()  {
         BrowserUtils.waitFor(3);
         String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals((Object)"Zero - Account Activity", (Object)actualTitle);
+        Assert.assertEquals("Zero - Account Activity", actualTitle);
+    }
+
+    @Then("the Account Summary page should be displayed")
+    public void the_Account_Summary_page_should_be_displayed()  {
+        BrowserUtils.waitFor(3);
+        String actualTitle = Driver.get().getTitle();
+        Assert.assertEquals("Zero - Account Summary",actualTitle);
     }
 
     @And("Account drop down should have {string} selected")
     public void the_user_enters_the_sales_manager_information(String expectedPage)  {
+
         if (expectedPage.equals("Savings")) {
             Assert.assertTrue(new AccountActivityPage().savingsBtn.isSelected());
         }
