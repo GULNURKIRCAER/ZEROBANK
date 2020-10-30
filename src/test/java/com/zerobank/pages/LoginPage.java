@@ -38,8 +38,6 @@ public class LoginPage
     @FindBy(id = "np_new_payee_details")
     public WebElement payeeDetails;
 
-
-
     public LoginPage() {
         PageFactory.initElements(Driver.get(), (Object)this);
     }

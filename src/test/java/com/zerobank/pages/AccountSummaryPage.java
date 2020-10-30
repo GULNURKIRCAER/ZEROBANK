@@ -24,8 +24,6 @@ public class AccountSummaryPage extends BasePage {
     @FindBy(xpath = "//a[text()='Loan']")
     public WebElement LoanBtn;
 
-
-
     public AccountSummaryPage() {
         PageFactory.initElements(Driver.get(), (Object)this);
     }

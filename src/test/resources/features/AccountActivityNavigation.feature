@@ -59,7 +59,7 @@ Feature: Navigating to specific accounts in Accounts Activity
     When  the user clicks on "Loan" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Loan" selected
-
+@login
   Scenario Outline:	"<AccountName>" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed

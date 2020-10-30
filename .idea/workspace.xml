@@ -24,8 +24,18 @@
   <component name="ChangeListManager">
     <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/PurchaseForeignCurrencyDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/PurchaseForeignCurrencyDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZEROBANK.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/ContactInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/PayBillsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/NavigationMenuStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/FindTransactions.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
