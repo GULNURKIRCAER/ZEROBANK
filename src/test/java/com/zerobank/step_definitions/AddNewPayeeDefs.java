@@ -23,9 +23,6 @@ public class AddNewPayeeDefs {
 
         loginPage.signIn.click();
 
-//        String username = ConfigurationReader.get("username");
-//        String password = ConfigurationReader.get("password");
-
         Driver.get().findElement(By.id("user_login")).sendKeys("username");
         Driver.get().findElement(By.id("user_password")).sendKeys("password");
 
