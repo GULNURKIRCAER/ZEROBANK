@@ -29,6 +29,7 @@ public class FindTransactionsDefs {
         String password = ConfigurationReader.get("password");
 
         loginPage.login(username, password);
+        BrowserUtils.waitFor(2);
 
         Driver.get().findElement(By.id("account_activity_tab")).click();
         Driver.get().findElement(By.xpath("//a[text()='Find Transactions']")).click();

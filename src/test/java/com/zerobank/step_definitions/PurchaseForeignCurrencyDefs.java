@@ -30,7 +30,7 @@ public class PurchaseForeignCurrencyDefs {
 
         Driver.get().findElement(By.id("user_login")).sendKeys("username");
         Driver.get().findElement(By.id("user_password")).sendKeys("password");
-
+        BrowserUtils.waitFor(2);
         if(loginPage.userName.getAttribute("value").equals("username") || loginPage.password.getAttribute("value").equals("password")) {
             Driver.get().findElement(By.name("submit")).click();
         }else  if(!loginPage.userName.getAttribute("value").equals("username") || !loginPage.password.getAttribute("value").equals("password")){
@@ -73,6 +73,8 @@ public class PurchaseForeignCurrencyDefs {
         Driver.get().findElement(By.xpath("(//select[@id='pc_currency']/option)[3]")).click();
 
         new LoginPage().submit2.click();
+
+        BrowserUtils.waitFor(2);
 
     }
 

@@ -30,8 +30,7 @@ public class AccountsActivityDefs {
 
         loginPage.signIn.click();
 
-//        String username = ConfigurationReader.get("username");
-//        String password = ConfigurationReader.get("password");
+        BrowserUtils.waitFor(2);
 
         Driver.get().findElement(By.id("user_login")).sendKeys("username");
         Driver.get().findElement(By.id("user_password")).sendKeys("password");
