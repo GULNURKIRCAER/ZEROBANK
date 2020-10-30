@@ -1,4 +1,4 @@
-
+@login
 Feature: Find Transactions in Account Activity
   Scenario: Search date range
     Given the user accesses the Find Transactions tab

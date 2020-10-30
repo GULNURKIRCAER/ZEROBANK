@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Set;
 
 public class PurchaseForeignCurrencyDefs {
-        WebDriver driver;
+
     @Given("the user accesses the Purchase foreign currency cash tab")
     public void the_user_accesses_the_Purchase_foreign_currency_cash_tab() {
         String url = ConfigurationReader.get("url");
@@ -57,50 +57,32 @@ public class PurchaseForeignCurrencyDefs {
     @When("user tries to calculate cost without selecting a currency")
     public void user_tries_to_calculate_cost_without_selecting_a_currency() {
         BrowserUtils.waitFor(2);
+
         Driver.get().findElement(By.id("pc_amount")).sendKeys("10");
 
-        BrowserUtils.waitFor(2);
-
         new LoginPage().submit2.click();
-
-        BrowserUtils.waitFor(2);
-
-        Alert alert=driver.switchTo().alert();
-        BrowserUtils.waitFor(2);
-        System.out.println(alert.getText());
-        BrowserUtils.waitFor(2);
-        alert.accept();
-
 
     }
 
     @When("user tries to calculate cost without entering a value")
     public void user_tries_to_calculate_cost_without_entering_a_value() {
         BrowserUtils.waitFor(2);
+
         Driver.get().findElement(By.xpath("//select[@id='pc_currency']")).click();
 
         Driver.get().findElement(By.xpath("(//select[@id='pc_currency']/option)[3]")).click();
 
-        BrowserUtils.waitFor(2);
-
         new LoginPage().submit2.click();
-
-        BrowserUtils.waitFor(2);
-
-        Alert alert=driver.switchTo().alert();
-        BrowserUtils.waitFor(3);
-        System.out.println(alert.getText());
-
-        alert.accept();
 
     }
 
     @Then("error message should be displayed")
     public void error_message_should_be_displayed() {
-        Alert alert = driver.switchTo().alert();
-        BrowserUtils.waitFor(3);
-        Assert.assertEquals(alert.getText(),"Please, ensure that you have filled all the required fields with valid values.");
 
+        Alert alert = Driver.get().switchTo().alert();
+        BrowserUtils.waitFor(3);
+
+        Assert.assertEquals(alert.getText(),"Please, ensure that you have filled all the required fields with valid values.");
         alert.accept();
     }
 }
