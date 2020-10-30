@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -123,8 +124,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CukesRunner" />
-      <item itemvalue="JUnit.FailedTestRunner" />
       <item itemvalue="JUnit.nbbj" />
+      <item itemvalue="JUnit.FailedTestRunner" />
     </list>
     <recent_temporary>
       <list>
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604046543961</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new codes">
+      <created>1604077896033</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604077896033</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,14 +330,14 @@
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1604017471667" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604021617836" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1604020235886" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1603924869239">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1604078768978">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603924869239" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1604046545283">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1604078768978" />
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2" timestamp="1604077897769">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604016549077" />
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604077897769" />
     <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1604046545283" />
     <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1604009888214">
       <screen x="0" y="23" width="1280" height="727" />
