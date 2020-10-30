@@ -22,21 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AddNewPayeeDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AddNewPayeeDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/PurchaseForeignCurrencyDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/PurchaseForeignCurrencyDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PurchaseForeignCurrency.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Add New Payee.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PurchaseForeignCurrency.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/PurchaseForeignCurrency.feature" afterDir="false" />
-    </list>
+    <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604016546943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new codes">
+      <created>1604021943218</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604021943218</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,10 +229,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="new codes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="23" width="1071" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604012172073">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="104" y="44" width="1071" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604021971539">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="104" y="23" width="1071" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1604012172073" />
+    <state x="104" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.727@0.23.1280.727" timestamp="1604021971539" />
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604011177572">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
@@ -256,35 +250,35 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="450" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1603871129756" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1604021617838">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1604021938924">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604016877627" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604021324385" />
+    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604021938924" />
     <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1604017471668" />
     <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.729@0.23.1280.729" timestamp="1604021617838" />
     <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.730@0.23.1280.730" timestamp="1604020235886" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1604021617836">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1604021938923">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604016877626" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604021324383" />
+    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604021938923" />
     <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1604017471666" />
     <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.729@0.23.1280.729" timestamp="1604021617836" />
     <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.730@0.23.1280.730" timestamp="1604020235885" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1604021617835">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1604021938922">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604016877625" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604021324382" />
+    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604021938922" />
     <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1604017471665" />
     <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.729@0.23.1280.729" timestamp="1604021617835" />
     <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.730@0.23.1280.730" timestamp="1604020235884" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1604021617836">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1604021938923">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604016877627" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604021324384" />
+    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604021938923" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1604017471667" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.729@0.23.1280.729" timestamp="1604021617836" />
     <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.730@0.23.1280.730" timestamp="1604020235886" />
@@ -292,10 +286,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603924869239" />
-    <state x="240" y="141" key="Vcs.Push.Dialog.v2" timestamp="1604016549077">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1604021949159">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604016549077" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1604021949159" />
     <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1604009888214">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
