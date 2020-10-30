@@ -23,10 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a512f3-f71d-443a-82e6-a551b9cd518d" name="Default Changelist" comment="new codes">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AddNewPayeeDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountsActivityDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_definitions/AccountsActivityDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivityNavigation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Add New Payee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountSummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_definitions/AccountsActivityDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_definitions/AccountsActivityDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountActivityNavigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountActivityNavigation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Add New Payee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Add New Payee.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +76,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zerobank.runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zerobank" />
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ZEROBANK" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zerobank.runners.*" />
@@ -82,14 +98,35 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zerobank.runners" />
       <option name="MAIN_CLASS_NAME" value="com.zerobank.runners.CukesRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nbbj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZEROBANK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zerobank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zerobank.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.zerobank.runners.nbbj" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.CukesRunner" />
+      <item itemvalue="JUnit.nbbj" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.nbbj" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603982281012</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new codes">
+      <created>1604010235547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604010235547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new codes">
+      <created>1604010594777</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604010594777</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,11 +226,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my codes" />
-    <MESSAGE value="new codes" />
     <MESSAGE value="CODES" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODES" />
+    <MESSAGE value="new codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new codes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="104" y="23" width="1071" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604012172073">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="23" width="1071" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1604012172073" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604011177572">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.727@0.23.1280.727" timestamp="1604011177572" />
     <state x="510" y="308" key="Github.ShareDialog" timestamp="1603871121485">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -188,30 +247,34 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="450" y="113" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1603871129756" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604010150505">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1604016043193">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604010150505" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604010150504">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1604016043193" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1604011410631" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1604016043191">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604010150504" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604010150503">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1604016043191" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1604011410630" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1604016043190">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604010150503" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604010150505">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1604016043190" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1604011410630" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1604016043192">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604010150505" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1604016043192" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1604011410631" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1603924869239">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603924869239" />
-    <state x="240" y="141" key="Vcs.Push.Dialog.v2" timestamp="1603982283906">
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2" timestamp="1604010596534">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603982283906" />
+    <state x="240" y="141" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604010596534" />
     <state x="339" y="171" width="602" height="474" key="find.popup" timestamp="1604009888214">
       <screen x="0" y="23" width="1280" height="727" />
     </state>

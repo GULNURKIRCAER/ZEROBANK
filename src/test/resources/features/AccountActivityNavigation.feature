@@ -3,6 +3,11 @@ Feature: Navigating to specific accounts in Accounts Activity
   Scenario: "Savings" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
     When  the user clicks on "Savings" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Savings" selected
@@ -10,6 +15,11 @@ Feature: Navigating to specific accounts in Accounts Activity
   Scenario: "Brokerage" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
     When  the user clicks on "Brokerage" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Brokerage" selected
@@ -17,6 +27,11 @@ Feature: Navigating to specific accounts in Accounts Activity
   Scenario: "Checking" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
     When  the user clicks on "Checking" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Checking" selected
@@ -24,6 +39,11 @@ Feature: Navigating to specific accounts in Accounts Activity
   Scenario: "Credit Card" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
     When  the user clicks on "Credit Card" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Credit Card" selected
@@ -31,13 +51,24 @@ Feature: Navigating to specific accounts in Accounts Activity
   Scenario:	"Loan" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
     When  the user clicks on "Loan" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "Loan" selected
-  @login
+
   Scenario Outline:	"<AccountName>" account redirect
     Given the user is logged in
     Then  the Account Summary page should be displayed
+    Then  the user should see following options
+      |Cash Accounts|
+      |Investment Accounts|
+      |Credit Accounts|
+      |Loan Accounts|
+
     When  the user clicks on "<AccountName>" link on the Account Summary page
     Then  the Account Activity page should be displayed
     And   Account drop down should have "<AccountName>" selected

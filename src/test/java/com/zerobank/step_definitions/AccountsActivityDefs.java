@@ -12,6 +12,10 @@ import com.zerobank.pages.LoginPage;
 import com.zerobank.utilities.Driver;
 import com.zerobank.utilities.ConfigurationReader;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class AccountsActivityDefs {
@@ -38,7 +42,17 @@ public class AccountsActivityDefs {
             Assert.assertTrue(loginPage.alert.isDisplayed());
         }
     }
-
+    @Then("the user should see following options")
+    public void the_user_should_see_following_options(List<String> menuOptions) {
+        BrowserUtils.waitFor(2);
+        //get the list of webelement and convert them to list of string and assert
+        List<WebElement> actualOptions = Driver.get().findElements(By.xpath("//div[@class='span12']/div/h2"));
+        List<String> columnsValues = new ArrayList<>();
+        for (int i = 0; i < actualOptions.size(); ++i) {
+            columnsValues.add(actualOptions.get(i).getText());
+        }
+        Assert.assertEquals(menuOptions, columnsValues);
+    }
     @When("the user clicks on {string} link on the Account Summary page")
     public void the_user_clicks_on_link_on_the_Account_Summary_page(String expectedPage)  {
 

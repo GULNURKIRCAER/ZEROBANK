@@ -1,6 +1,6 @@
 
 Feature: Add new payee under pay bills
-
+  @login
   Scenario: Add a new payee
     Given Add New Payee tab
     And   creates new payee using following information
